@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+/*      공통 부분       */
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: 'NanumGothic', sans-serif;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*      BG          */
+
+#home {
+    background-image: url(resource/images/background.jpg);
+    min-height: 100vh;
+}
+
+.big-bg {
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+
+
+/*      HEADER        */
+
+.wrapper {
+    max-width: 1100px;
+    margin: 0 auto; 
+    padding: 0 4%;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    margin-top: 50px;
+    list-style: none;
+}
+.main-nav li {
+    margin-left: 36px;
+    margin-top: 20px;
+}
+.main-nav a {
+    color: #fff;
+}
+.main-nav a:hover {
+    color: #0bd;
+}
+
+
+.main-content {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.page-title {
+    color:#1e1e1e;
+    font-size: 5rem;
+    font-weight: normal;
+}
+
+.page-subtitle {
+    color:#d6f6f8;
+    font-size: 4.5rem;
+    font-weight: normal;
+}
+
+
+/*              post             */
+
+#post {
+    background-image: url(resource/images/background.jpeg);
+    height: 270px;
+    margin-bottom: 40px;
+}
+
+.main-text {
+    background-color: #d0936d;
+    margin: 10px 100px 20px 100px;
+}
+
+.text-title {
+    font-size: 3rem;
+    font-weight: normal;
+    text-align: left;
+    list-style-position: inside;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    margin-top: 15px;
+}
+
+.text-image {
+    width: 500px;
+    height: 350px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+.text p {
+    font-size: 1.5rem;
+    text-align:justify;
+    margin: 10px;
+}
